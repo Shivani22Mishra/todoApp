@@ -1,0 +1,118 @@
+
+.container {
+    width: 30%;
+    min-height: 50%;
+    padding: 5px 30px;
+    margin: auto;
+    margin-top:10px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 5px;
+    background-color: white;
+}
+
+.inpField {
+    border: 2px solid rgb(218, 213, 213) ;
+    border-radius: 4px;
+    width: 80%;
+    height: 8px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.inpDiv {
+    display: inline;
+}
+
+.button {
+    width: 10%;
+    padding: 6px;
+    margin-left: 14px;
+    border: 2px solid skyblue;
+    border-radius: 4px;
+    background-color: skyblue;
+}
+
+.listDiv {
+    /* display: inline-block; */
+    width: 95%;
+    margin-top: 10px;
+    align-items: center;
+    padding: 15px 10px 1px 10px;
+    background-color: rgb(218, 213, 213);
+    border-radius: 4px;
+}
+
+
+.custom-radioBut{
+    width: 10px;
+    height: 10px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-radioButCh{
+    width: 10px;
+    height: 10px;
+    border: 2px solid green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-radioButCh .checkmark{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: green;
+    display: none;
+}
+
+.custom-radioBut input{
+    display: none;
+}
+
+.custom-radioButCh input:checked + .checkmark{
+    display: inline-block;
+}
+
+.todoCompSubTxt{
+    bottom: 18px;
+    position: relative;
+    margin-left: 25px;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.todoRemSubTxt{
+    bottom: 18px;
+    position: relative;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.imgDiv{
+    bottom: 19px;
+    position: relative;
+    float: right;
+    padding: 5px;
+}
+
+.todoFooter{
+    margin-top:30px;
+    display: inline;
+}
+
+.clearBut{
+    bottom: 40px;
+    padding: 5px;
+    width: 20%;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    position: relative;
+    float: right;
+}
